@@ -1,0 +1,50 @@
+{
+  "name": "objectivec-hm-switcher",
+  "displayName": "Objective-C h/m Switcher",
+  "description": "Quickly switch between Objective-C .h and .m files",
+  "version": "0.0.7",
+  "icon": "resources/icon.png",
+  "publisher": "doeralex",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doeralex/objectivec-hm-switcher.git"
+  },
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:objective-c"
+  ],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "objectivec-hm-switcher.switch",
+        "title": "Switch to the corresponding .h/.m file"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "objectivec-hm-switcher.switch",
+        "key": "ctrl+alt+o",
+        "mac": "cmd+alt+o",
+        "when": "editorTextFocus && editorLangId == 'objective-c'"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.65.0",
+    "eslint": "^8.21.0",
+    "vsce": "^2.15.0"
+  }
+} 

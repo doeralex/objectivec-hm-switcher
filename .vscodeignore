@@ -1,0 +1,15 @@
+.git
+.github
+.gitignore
+.vscode/**
+.vscode-test/**
+**/*.vsix
+**/.DS_Store
+**/.eslintrc.json
+**/node_modules/**
+**/test/**
+.editorconfig
+INSTALL.md
+CREATE_ICON.md
+examples/**
+.specstory/** 
