@@ -2,7 +2,7 @@
   "name": "objectivec-hm-switcher",
   "displayName": "Objective-C h/m Switcher",
   "description": "Quickly switch between Objective-C .h and .m files",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "icon": "resources/icon.png",
   "publisher": "doeralex",
   "license": "MIT",
