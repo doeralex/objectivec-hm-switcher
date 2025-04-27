@@ -16,8 +16,7 @@ All code and descriptions were created by AI.
 When editing an Objective-C file (.h/.m/.mm), you can switch to the corresponding file via:
 
 1. Using shortcuts:
-   - macOS: `Cmd+Alt+O`
-   - Windows/Linux: `Ctrl+Alt+O`
+   - macOS: `ctrl+cmd+down`
    
 2. Through the command palette (`Cmd+Shift+P` or `Ctrl+Shift+P`), search and execute the "Switch to corresponding .h/.m file" command
 

@@ -30,9 +30,9 @@
     "keybindings": [
       {
         "command": "objectivec-hm-switcher.switch",
-        "key": "ctrl+alt+o",
-        "mac": "cmd+alt+o",
-        "when": "editorTextFocus && editorLangId == 'objective-c'"
+        "key": "ctrl+cmd+down",
+        "mac": "ctrl+cmd+down",
+        "when": "editorTextFocus"
       }
     ]
   },
